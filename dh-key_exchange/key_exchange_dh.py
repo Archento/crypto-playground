@@ -22,7 +22,7 @@
 Alice and Bob now have a shared secret key, s
 An evesdropper can not know the secret although he knows p, b, A, and B.
 """
-from lib.prime_primitive_root import is_prime, find_primitive
+from src.prime_primitive_root import is_prime, find_primitive
 
 sharedPrime = 0 # p
 aliceSecret = 648225  # a
